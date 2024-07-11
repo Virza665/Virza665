@@ -1,0 +1,176 @@
+{
+    "success": true,
+    "creator": "AntiDev",
+    "uptime": "16:14:42",
+    "time": "2024-07-10T12:52:15.000Z",
+    "status": {
+        "rss": "172.48 MB",
+        "heapTotal": "95.32 MB",
+        "heapUsed": "83.27 MB",
+        "external": "3.39 MB",
+        "arrayBuffers": "219.97 KB",
+        "memoryUsage": "6.74 GB / 14.29 GB"
+    },
+    "endpoint": [
+        {
+            "name": "Docs",
+            "path": "/api"
+        },
+        {
+            "name": "Bot WhatsApp Floo",
+            "path": "/bot"
+        },
+        {
+            "name": "Speech To Text",
+            "path": "/speech"
+        },
+        {
+            "name": "Character AI",
+            "paths": [
+                {
+                    "name": "Search Character",
+                    "path": "/api/chara/search",
+                    "query": [
+                        "name"
+                    ]
+                },
+                {
+                    "name": "Character Info",
+                    "path": "/api/chara/info",
+                    "query": [
+                        "charaterId"
+                    ]
+                },
+                {
+                    "name": "Chat with Character AI",
+                    "path": "/api/chara/chat",
+                    "query": [
+                        "characterId",
+                        "text",
+                        "sessionId"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Search",
+            "paths": [
+                {
+                    "name": "Pintereset",
+                    "path": "/api/search/pinterest",
+                    "query": [
+                        "query"
+                    ]
+                },
+                {
+                    "name": "Tiktok",
+                    "path": "/api/search/tiktok",
+                    "query": [
+                        "query"
+                    ]
+                },
+                {
+                    "name": "Youtube",
+                    "path": "/api/search/youtube",
+                    "query": [
+                        "query"
+                    ]
+                },
+                {
+                    "name": "Spotify",
+                    "path": "/api/search/spotify",
+                    "query": [
+                        "query"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Downloader",
+            "paths": [
+                {
+                    "name": "Tiktok",
+                    "path": "/api/media/tiktok",
+                    "query": [
+                        "url"
+                    ]
+                },
+                {
+                    "name": "Instagram",
+                    "path": "/api/media/igdl",
+                    "query": [
+                        "url"
+                    ]
+                },
+                {
+                    "name": "Instagram Story",
+                    "path": "/api/media/igstory",
+                    "query": [
+                        "username"
+                    ]
+                },
+                {
+                    "name": "Twitter",
+                    "path": "/api/media/twitter",
+                    "query": [
+                        "url"
+                    ]
+                },
+                {
+                    "name": "Facebook",
+                    "path": "/api/media/facebook",
+                    "query": [
+                        "url"
+                    ]
+                },
+                {
+                    "name": "Youtube",
+                    "path": "/api/media/youtube",
+                    "query": [
+                        "url"
+                    ]
+                },
+                {
+                    "name": "Spotify",
+                    "path": "/api/media/spotify",
+                    "query": [
+                        "url"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tools",
+            "paths": [
+                {
+                    "name": "IP to Website",
+                    "path": "/api/tools/ip2website",
+                    "query": [
+                        "IP"
+                    ]
+                },
+                {
+                    "name": "Subdomain Finder",
+                    "path": "/api/tools/subfinder",
+                    "query": [
+                        "domain"
+                    ]
+                },
+                {
+                    "name": "Whois Domain",
+                    "path": "/api/tools/whois",
+                    "query": [
+                        "domain"
+                    ]
+                },
+                {
+                    "name": "IP Geolocation",
+                    "path": "/api/tools/geoip",
+                    "query": [
+                        "IP"
+                    ]
+                }
+            ]
+        }
+    ]
+}
